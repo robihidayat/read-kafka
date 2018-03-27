@@ -23,7 +23,7 @@ Apache Kafka® is a distributed streaming platform. What exactly does that mean?
     7. Consumer Grup -  Group dari consumer. Fungsinya untuk apa ? Satu Consumer Group dapat terdiri dari satu consumer atau lebih.  Satu Consumer Group akan mengkonsumsi data dari satu topik tertentu. 
     Satu data tertentu hanya akan dikonsumsi satu kali oleh satu consumer group dan akan dikonsumsi oleh satu consumer tertentu didalam consumer group tersebut (consumer yang berbeda didalam satu consumer group tidak akan memperoleh data yang sama). 
 
-    8. Partition, Bagaimana data itu di pecah. misal ada 1TB, mau dipartisi jadi 2. maka jadinya 500GB dan 500GB. Fungsinya apa ? Partisi berfungsi untuk mendukung proses paralel. Jumlah partisi yang lebih besar dapat meningkatkan throughput namun mengkonsumsi resource lebih banyak.
+    8. Partition, Bagaimana data itu di pecah. misal ada 1 TB, mau dipartisi jadi 2. maka jadinya 500GB dan 500GB. Fungsinya apa ? Partisi berfungsi untuk mendukung proses paralel. Jumlah partisi yang lebih besar dapat meningkatkan throughput namun mengkonsumsi resource lebih banyak.
 
 
 ## Requirment
@@ -40,7 +40,7 @@ Apache Kafka® is a distributed streaming platform. What exactly does that mean?
 ### Instalation 
 
 
-    1. Download from source code https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.1/kafka_2.11-1.0.1.tgz and extract
+    1. Download from source code []https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.1/kafka_2.11-1.0.1.tgz and extract
 
     2. Start Zookeeper --> bin/zookeeper-server-start.sh config/zookeeper.properties
 
