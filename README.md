@@ -34,6 +34,9 @@ Apache Kafka® is a distributed streaming platform. What exactly does that mean?
 
 ## Play with Kafka Single Node
 
+![](tty.gif)
+
+
 ### Instalation 
 
 
