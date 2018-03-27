@@ -2,6 +2,9 @@
 
 Kafka sebagai messageing system. 
 
+Apache Kafka® is a distributed streaming platform. What exactly does that mean?
+
+
 ## Terminologi
     
     1. Broker - single node apps kafka
@@ -84,8 +87,13 @@ Kafka sebagai messageing system.
 
     3. Create Consumer
         > bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic my-replicated-topic
-    
 
+
+    
+## Play With Kafka Docker  
+
+
+ 
 
 
 
