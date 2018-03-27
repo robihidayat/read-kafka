@@ -38,9 +38,8 @@ Apache Kafka® is a distributed streaming platform. What exactly does that mean?
 
 
 ### Instalation 
-
-
-    1. Download from source code []https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.1/kafka_2.11-1.0.1.tgz and extract
+ 
+    1. Download from source code [source code]: https://www.apache.org/dyn/closer.cgi?path=/kafka/1.0.1/kafka_2.11-1.0.1.tgz and extract
 
     2. Start Zookeeper --> bin/zookeeper-server-start.sh config/zookeeper.properties
 
